@@ -2,6 +2,7 @@
   "name": "chbackend",
   "version": "1.0.0",
   "description": "learning to create a backend application",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +12,8 @@
     "backend"
   ],
   "author": "himanshu CHOPRA",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
